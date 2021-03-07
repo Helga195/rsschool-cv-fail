@@ -1,0 +1,38 @@
+    html {
+        background: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+    }
+    body {
+    width: 27cm; 
+    padding: 50px; 
+    margin: auto; 
+    background: url(https://avatanplus.com/files/resources/mid/56cdae63c14b6153137135d0.png);
+
+    font-family: Helvetica;
+    font-size: 16px;}
+    hr {
+        border: none; 
+        background-color: dimgray; 
+        color:dimgray; 
+        height: 1,5px; 
+       }   
+.round {
+    border-radius: 15px;
+   }
+.textcols {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+    margin-left: 5%;
+}
+.textcols-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 70%;
+}
+.textcols-item + .textcols-item {
+	margin-left: -20%;
+}
+  
