@@ -25,7 +25,7 @@ The main aim is to work in the IT industry with the opportunity of professional 
 Taking The Rollig Scopes School "JavaScript/Front-end" course.
 ### Code Example
 ```javascript
-var str = 'lola';
+var str = 'fiona';
     function isPalindrome(str) {
         str = str.split('');
         str = str.reverse();
